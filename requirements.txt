@@ -36,3 +36,4 @@ black==22.1.0
 sphinxcontrib-websupport==1.2.4
 sphinx-csv-filter
 openpyxl
+gwpy
