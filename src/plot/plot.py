@@ -21,7 +21,7 @@ def plot_raw_data(path,
     fig, ax = plt.subplots(3,1,figsize=(12,10), sharey= True) 
     for i in range(3):
         
-        plt.suptitle(f"Strain data for three observatories from sample: {sample_id} | Target: {target[a]}")
+        plt.suptitle(f"Strain data for three observatories from sample: {sample_id} | Target: {target}")
         sns.lineplot(data=data[i], ax=ax[i], color=sns.color_palette()[i])
         ax[i].legend([labels[i]])
         ax[i].set_xlim(0, 4096)
